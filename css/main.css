@@ -1,0 +1,1534 @@
+
+/*-------------------------------------------------- Homepage CSS --*/
+#mobile-outline {
+    outline: 20px solid #333;
+    max-width: 412px;
+    height: 5740px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+ } 
+ 
+ body {
+    color: #0f0f0f;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+ 
+ a {
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+ }
+ 
+ input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+ }
+
+ /*---hamburger menu setting--- */
+#main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px; 
+ } 
+ 
+ /* ---removed the checkbox about hamburger--- */
+ #main-nav input, #burger-con {
+    display: none;
+ }
+ 
+ /*   ~ sibling selector   */
+ #main-nav input:checked ~ #burger-con {
+    display: block;
+    position: absolute;
+ }
+ 
+ /* ---content inside the burger--- */
+ #main-nav ul {
+    box-shadow: 0px 5px 18px 0px black;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav ul li a {
+    display: block;
+    text-align: left;
+    font-weight: 520;
+    color: #050505;
+    background-color: white;
+    opacity: 95%;
+    padding: 5px 70px 25px 10px;
+ }
+ 
+ #top-menu-burger ul li a:hover {
+    color:  #CF6666;
+ }
+ 
+ #main-nav ul li:last-child {
+    margin-bottom: 10px;
+ }
+ 
+ #logo {
+    margin-bottom: 20px;
+    max-width: 382px;
+ }
+ 
+ 
+ /*---Main Hero Image--- */
+ 
+ #hero-h {
+    background: url(../images/hero-main.jpg) no-repeat;
+    height: 250px;
+ }
+ 
+ .book-now {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 20px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+    cursor: pointer;
+ }
+ 
+ .book-now:hover {
+    background-color: rgb(196, 28, 28);
+ }
+ 
+ #book-now-hero {
+    height: 67px;
+ }
+ 
+ #hero-h-heading-box {
+    align-self: end;
+ }
+ 
+ .hero-h-img-h2, .hero-h-img-h3 {
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-size: 13px;
+ }
+ 
+ .hero-h-img-h2 span,  .hero-h-img-h3 span {
+    color: #9a2018;
+    font-size: 14px;
+    line-height: 2;
+ }
+
+ .hero-h-img-h2 p {
+    font-size: 15px;
+ }
+ 
+ .line-separator-h {
+    margin-top: 20px;
+    font-size: 17px;
+    border-top: solid 3px #CF6666;
+    padding-top: 20px;
+ }
+ 
+ #hero-h-summary span{
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 20px;
+ }
+ 
+ /* ---Main Hero Image Contact--- */
+ 
+ .fas {
+    font-size: 42px;
+    color: #9a2018;
+    margin: 0 auto;
+    float: left;
+ }
+ 
+ .fa-mobile-alt {
+    margin-right: 10px;
+    margin-left: 3px;
+    margin-bottom: 20px;
+ }
+ 
+ .fa-map-marker-alt {
+    margin-right: 10px;
+ }
+ 
+ #contact {
+    font-size: 11px;
+   background-color: #f0efef;
+   margin-top: 50px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+ }
+ 
+ /*---Why Choose Us--- */
+ 
+  #why-choose-us-nav {
+    padding-top: 20px;
+ }
+ 
+ #why-choose-us-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ #why-choose-us-nav ul li {
+    margin-bottom: 15px;
+ }
+ 
+ #why-choose-us-nav ul li a {
+   color: inherit;
+   padding: 5px;
+ }
+ 
+ #why-choose-us-nav ul li a.selected {
+    border-left: #9a2018 solid 10px;
+  }
+ 
+ 
+ #why-choose-us-hero-con {
+   background: url(../images/why-choose-us-hero.jpg) no-repeat;
+   height: 220px;
+ }
+ 
+ #why-choose-us-heading-box {
+    align-self: end;
+ }
+ 
+ .why-choose-us-image {
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+ }
+ 
+ .why-choose-us-image-con h2 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+ }
+ 
+ .why-choose-us-image-con p {
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 20px;
+ }
+ 
+ .why-choose-us-image-con a {
+    color: #707070;
+    font-size: 12px;
+ }
+ 
+  #why-choose-us-bottom-nav {
+    background-color: #CF6666;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+ }
+ 
+ #why-choose-us-bottom-nav ol {
+    list-style-type: none;
+    margin: 0 0 0 20px;
+    padding: 0;
+ }
+ 
+ #why-choose-us-bottom-nav ol li {
+    display: inline;
+ }
+ 
+ #why-choose-us-bottom-nav ol li a {
+    padding: 5px;
+    color: #fff;
+ }
+
+ 
+ /* ---About & FAQ--- */
+ 
+ #about-hero-con {
+    background: url(../images/about-us-hero.jpg) no-repeat;
+    height: 220px;
+ }
+ 
+ #about-hero-heading-box {
+    align-self: end;
+ }
+ 
+ #about-us-text {
+    padding-bottom: 60px;
+ }
+ 
+ #about-us-text p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 22px;
+ }
+ 
+ #about-us-text-column2 {
+    font-style: italic;
+ }
+ 
+ #faq-con {
+    background-color: #f4f4f4;
+    padding-top: 35px;
+    padding-bottom: 30px;
+ }
+ 
+ #faq-con h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+ }
+ 
+ #faq-con h2 span {
+    color: #9a2018;
+    font-size: 16px;
+ }
+ 
+ .faq-items {
+    margin-bottom: 16px;
+ }
+ 
+ .faq-items h3 {
+    background: #e8e7e7;
+    padding: 16px;
+    font-size: 16px;
+ }
+ 
+ .faq-items ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+ }
+ 
+ .faq-items li {
+    padding: 8px 0;
+    border-bottom: 1px solid #9a2018;
+ }   
+ 
+ .faq-items a {
+    color: inherit;
+    font-size: 13px;
+ }
+ 
+ #faq-text-con {
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ 
+ /* ---Contact--- */
+ 
+ #contact-h-hero-con {
+    background: url(../images/contact-hero.jpg);
+    height: 220px;
+ }
+ 
+ #contact-hero-heading-box {
+    align-self: end;
+ }
+ 
+ #contact-hero-text {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 2;
+ }
+ 
+ #contact-hero-address p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 22px;
+ }
+ 
+ #contact-hero-address {
+    margin-bottom: 30px;
+ }
+ 
+ #contact-hero-address h3 {
+    margin-bottom: 25px;
+ }
+ 
+ /*-- Contact Form --*/
+ #contact-h-hero-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    margin-top: -50px;
+ }
+ 
+ #contact-h-hero-form input, textarea {
+   padding: 18px;
+   margin-top: 40px;
+   border: 2px solid #d6d6d6;
+   background-color: #f7f7f7;
+   border-radius: 5px;
+   font: inherit;
+   width: auto;
+ }
+ 
+ #contact-h-hero-form textarea {
+    height: 250px;
+ }
+ 
+ #contact-h-hero-form input[type="submit"] {
+    padding: 12px 28px;
+    background: #9a2018;
+    color: #fff;
+    border: none;
+    transition: all 200ms ease-in;
+    width: 150px;
+    align-self: flex-end;
+ }
+ 
+ #contact-h-hero-form input[type="submit"]:hover {
+    background-color: rgb(196, 28, 28);
+ }
+ 
+ /* ---Footer--- */
+ #footer-h-hero {
+    background-image: url(../images/footer-mt.jpg);
+     background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+ }
+ 
+ #footer-h-hero h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+ }
+ 
+ #footer-h-privacy .line-seperator {
+    margin-top: 0px;
+ }
+ 
+ #footer-h-contact-info h3 {
+    font-size: 23px;
+ }
+ 
+ #footer-h-contact-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+ }
+
+
+
+
+  
+/*-------------------------------------------------- Dinning CSS --*/
+#mobile-outline-d {
+    outline: 20px solid #333;
+    max-width: 412px;
+    height: 6070px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+ } 
+
+ #hero-d {
+    background: url(../images/dining-hero.jpg) no-repeat;
+    height: 260px;
+ }
+ 
+ /*-- Book now button --*/
+ .book-now {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 20px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+    cursor: pointer;
+ }
+ 
+ .book-now:hover {
+    background-color: rgb(196, 28, 28);
+ }
+ 
+ #book-now-hero {
+    height: 67px;
+ }
+ 
+ /*-- Open hour button --*/
+ #open-hour-hero {
+    background-color: #9a2018;
+    color: white;
+    font-size: 13px;
+    width: 100px;
+    height: 35px;
+    margin-left: 60px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+    cursor: pointer;
+ }
+ 
+ #open-hour-hero:hover {
+    background-color: rgb(196, 28, 28);
+ }
+ 
+ /*--Heading box above hero image--*/
+ #hero-heading-box {
+    align-self: end;
+    height: 25px; 
+ }
+ 
+ /*--Daily Features--*/
+ #hero-d-summary p {
+    font-size: 17px;
+    margin: 10px 5px 20px 5px; 
+ }
+ 
+ /*--White box & Gourmet Dining--*/
+ .hero-img-h2 {
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-size: 17px;
+ }
+ 
+ .hero-img-h2 span {
+    color: #9a2018;
+    font-size: 13px;
+ }
+ 
+ .line-separator {
+    margin-top: 20px;
+    border-top: solid 3px #CF6666;
+    padding-top: 20px;
+ }
+ 
+ /* ---Top menu--- */
+ #top-d-menu ul li {
+    display: inline;
+    font-size: 15px;  
+ }
+ 
+ #top-d-menu ul li a {
+    text-decoration: underline;
+    color: black;
+    margin: 10px 15px;
+ }
+ 
+ #top-d-menu ul li a:hover {
+    color:  #CF6666;
+ }
+ 
+ /*-- Amuse dropdown --*/
+ .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    opacity: 95%;
+    width: 260px;
+    box-shadow: 0px 5px 18px 0px black;
+    padding: 20px; 
+  }
+ 
+  .dropdown-content span {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: bold; 
+ }
+ 
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ 
+ /*-- Breakfast --*/
+ #breakfast-hero {
+    background: url(../images/breakfast-hero.jpg) no-repeat;
+    height: 260px;
+ }
+ 
+ /*--White box--*/
+ #breakfast-hero-heading-box {
+    align-self: end;
+    height: 25px; 
+ }
+ 
+ .breakfast-hero-img-p {
+    background: rgb(255, 255, 255);
+    padding: 18px 15px;
+    font-size: 15px;
+ }
+ 
+ #breakfast-menu ul li {
+    text-decoration: underline;
+    display: flex;
+    color: black;
+    margin: -25px;
+    padding-top: 8px;
+ }
+ 
+ #breakfast-menu ul li a {
+   list-style-type: none;
+   color: black; 
+ }
+ 
+ #breakfast-menu ul a:hover {
+    color:  #CF6666;
+ }
+ 
+ /*-- Lunch --*/
+ #lunch-hero {
+    background: url(../images/lunch-hero.jpg) no-repeat;
+    height: 260px;
+    margin-top: 120px;
+ }
+ 
+ /*--White box--*/
+ #lunch-hero-heading-box {
+    align-self: end;
+    height: 25px; 
+ }
+ 
+ .lunch-hero-img-p {
+    background: rgb(255, 255, 255);
+    padding: 18px 15px;
+    font-size: 15px;
+ }
+ 
+ #lunch-menu ul li {
+    text-decoration: underline;
+    display: flex;
+    color: black;
+    margin: -25px;
+    padding-top: 8px;
+ }
+ 
+ #lunch-menu ul li a {
+   list-style-type: none;
+   color: black; 
+ }
+ 
+ #lunch-menu ul a:hover {
+    color:  #CF6666;
+ }
+ 
+ /*-- Dinner --*/
+ #dinner-hero {
+    background: url(../images/dinner-hero.jpg) no-repeat;
+    height: 260px;
+    margin-top: 120px;
+ }
+ 
+ /*--White box--*/
+ #dinner-hero-heading-box {
+    align-self: end;
+    height: 25px; 
+ }
+ 
+ .dinner-hero-img-p {
+    background: rgb(255, 255, 255);
+    padding: 18px 15px;
+    font-size: 15px;
+ }
+ 
+ #dinner-menu ul li {
+    text-decoration: underline;
+    display: flex;
+    color: black;
+    margin: -25px;
+    padding-top: 8px;
+ }
+ 
+ #dinner-menu ul li a {
+   list-style-type: none;
+   color: black; 
+ }
+ 
+ #dinner-menu ul a:hover {
+    color:  #CF6666;
+ }
+ 
+ /*-- Drink --*/
+ #drink-hero {
+    background: url(../images/drink-hero.jpg) no-repeat;
+    height: 260px;
+    margin-top: 120px;
+ }
+ 
+ /*--White box--*/
+ #drink-hero-heading-box {
+    align-self: end;
+    height: 25px; 
+ }
+ 
+ .drink-hero-img-p {
+    background: rgb(255, 255, 255);
+    padding: 18px 15px;
+    font-size: 15px;
+ }
+ 
+ #drink-menu ul li {
+    text-decoration: underline;
+    display: flex;
+    color: black;
+    margin: -25px;
+    padding-top: 8px;
+ }
+ 
+ #drink-menu ul li a {
+   list-style-type: none;
+   color: black; 
+ }
+ 
+ #drink-menu ul a:hover {
+    color:  #CF6666;
+ }
+ 
+ /*-- 5 Stars --*/
+ #stars-hero {
+    background: url(../images/5stars-hero.jpg) no-repeat;
+    height: 260px;
+    margin-top: 120px;
+ }
+ 
+ /*-- 5 Stars pink bar --*/
+ #stars-hero-bottom-nav {
+    background-color: #CF6666;
+    padding: 2px 90px;
+    margin-top: 5px;
+ }
+ 
+ #stars-hero-bottom-nav ol li {
+    display: inline;
+    margin: 0 0 0 35px;
+    padding: 0;
+ }
+ 
+ #stars-hero-bottom-nav ol li a {
+    font-size: 17px;
+    text-decoration: underline;
+    color: white;
+ }
+ 
+ /*--White box--*/
+ #stars-hero-heading-box {
+    align-self: end;
+    height: 25px; 
+ }
+ 
+ .stars-hero-img-p {
+    margin: 30px 0px 0px 0px;
+  
+ }
+ 
+ .stars-hero-img-p span {
+    font-size: 17px;
+  
+ }
+ 
+ .stars-hero-img-p2 {
+    background: rgb(255, 255, 255);
+    padding: 18px 0px;
+    margin-top: -65px;
+    font-size: 14px;
+    line-height: 2;
+ }
+ 
+ /*-- Full Menu button--*/
+ #full-menu-hero {
+    margin: 600px;
+    margin-bottom: 90px;
+    height: 67px;
+    width: 200px;
+    margin-left: 110px;  
+ }
+ 
+ .full-menu {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 20px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+    cursor: pointer;
+ }
+ 
+ .full-menu:hover {
+    background-color: rgb(196, 28, 28);
+ }
+ 
+ /*-- Wine Hero --*/
+ #wine-hero {
+    background: url(../images/wine-hero.jpg) no-repeat;
+    height: 260px;
+ }
+ 
+ /*-- Book now button --*/
+ .book-now {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 20px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+    cursor: pointer;
+ }
+ 
+ .book-now:hover {
+    background-color: rgb(196, 28, 28);
+ }
+ 
+ #book-now-wine {
+    height: 67px;
+ }
+ 
+ /*-- Open hour wine button --*/
+ #open-hour-wine2 {
+    font-size: 13px;
+    margin-right: 180px;
+    height: 40px;
+ }
+ 
+ #open-hour-wine {
+    background-color: #9a2018;
+    color: white;
+    font-size: 13px;
+    width: 100px;
+    height: 35px;
+    margin-left: 50px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+    cursor: pointer;
+ }
+ 
+ #open-hour-wine:hover {
+    background-color: rgb(196, 28, 28);
+ }
+ 
+ /*--Heading box above hero image--*/
+ #wine-heading-box {
+    align-self: end;
+    height: 25px; 
+ }
+ 
+ /*--White box & Gourmet Meals & Wine--*/
+ .wine-hero-img-h2 {
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-size: 17px;
+ }
+ 
+ .wine-hero-img-h2 span {
+    color: #9a2018;
+    font-size: 13px;
+ }
+ 
+ .line-separator {
+    margin-top: 20px;
+    border-top: solid 3px #CF6666;
+    padding-top: 20px;
+ }
+ 
+ .wine-hero-img-p span {
+    font-size: 17px;
+ }
+ 
+ .wine-hero-img-p {
+    font-size: 14px;
+    line-height: 2;
+ }
+ 
+ /*-- Wine Award --*/
+ .wine-award-image {
+    float: left;
+    margin-right: 20px;
+    margin-top: 50px;
+ }
+ 
+ .wine-award-image-con h2 {
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+ }
+ 
+ .wine-award-image-con span {
+    font-size: 13px;
+    margin-bottom: 20px;
+    line-height: 2;
+ }
+ 
+ /* Toll Free and Address icons */
+ .fas {
+    font-size: 42px;
+    color: #9a2018;
+    margin: 0 auto;
+    float: left;
+ }
+ 
+ .fa-mobile-alt {
+    margin-right: 10px;
+    margin-left: 3px;
+    margin-bottom: 20px;
+ }
+ 
+ .fa-map-marker-alt {
+    margin-right: 10px;
+ }
+ 
+ #contact {
+    font-size: 11px;
+    background-color: #f0efef;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+ 
+ /*-- Contact Hero --*/
+ #contact-d-hero {
+    background: url(../images/contact-hero-2.jpg) no-repeat;
+    height: 260px;
+ }
+ 
+ /*--Heading box above hero image--*/
+ #contact-d-heading-box {
+    align-self: end;
+    height: 25px; 
+ }
+ 
+ /*--White box & Contact--*/
+ .contact-d-hero-img-h2 {
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-size: 17px;
+ }
+ 
+ .contact-d-hero-img-h2 span {
+    color: #9a2018;
+    font-size: 13px;
+ }
+ 
+ .line-separator3 {
+    margin-top: 60px;
+    border-top: solid 3px #CF6666;
+    padding-top: 20px;
+ }
+ 
+ .contact-d-hero-img-p {
+    font-size: 14px;
+    line-height: 2;
+    padding-left: 20px;
+ }
+ 
+ /*-- Contact Form --*/
+ #contact-hero-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+ }
+ 
+ #contact-hero-form input, textarea {
+    padding: 18px;
+    margin-top: 40px;
+    border: 2px solid #d6d6d6;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    font: inherit;
+    width: auto;
+ }
+ 
+ #contact-hero-form textarea {
+    height: 250px;
+ }
+ 
+ #contact-hero-form input[type="submit"] {
+    padding: 18px 28px;
+    background:  #9a2018;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    transition: all 200ms ease-in;
+    width: 150px;
+    align-self: flex-end;
+ }
+ 
+ #contact-hero-form input[type="submit"]:hover {
+    background-color: rgb(196, 28, 28);
+ }
+ 
+ /* ---Footer--- */
+ #footer-d-hero {
+    background-image: url(../images/footer-dining.jpg);
+     background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: -2px;
+    padding-bottom: 110px;
+ }
+ 
+ #footer-d-hero h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+ }
+ 
+ #footer-d-privacy .line-seperator {
+    margin-top: 0px;
+ }
+ 
+ #footer-d-contact-info h3 {
+    font-size: 23px;
+ }
+ 
+ #footer-d-contact-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+ }
+
+
+
+
+ /*-------------------------------------------------- Spa CSS --*/
+ #mobile-outline-s {
+    outline: 20px solid #333;
+    max-width: 412px;
+    height: 5135px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+ } 
+ 
+ /*---Main Hero Image--- */
+ #hero {
+    background: url(../images/spa_hero.jpg) no-repeat;
+    height: 260px;
+ }
+ 
+ /*-- Book now button --*/
+ .book-now {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 20px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+    cursor: pointer;
+ }
+ 
+ .book-now:hover {
+    background-color: rgb(196, 28, 28);
+ }
+ 
+ #book-now-hero {
+    height: 67px;
+ }
+
+ /*-- Open hour button --*/
+ #open-hour-hero {
+    background-color: #9a2018;
+    color: white;
+    font-size: 13px;
+    width: 100px;
+    height: 35px;
+    margin-left: 60px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+    cursor: pointer;
+ }
+ 
+ #open-hour-hero:hover {
+    background-color: rgb(196, 28, 28);
+ }
+ 
+ /*--Heading box above hero image--*/
+ #hero-heading-box {
+    align-self: end;
+    height: 25px; 
+ }
+ 
+ /*-- Registered Massage Theraphy--*/
+ #hero-summary p {
+    font-size: 17px;
+    margin: 15px 5px 20px 15px;
+ }
+
+ #hero-summary span {
+   font-size: 13px;
+   line-height: 2;
+}
+ 
+ /*--White box & Spa Services--*/
+ .hero-img-h2 {
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-size: 17px;
+ }
+ 
+ .hero-img-h2 span {
+    color: #9a2018;
+    font-size: 13px;
+ }
+ 
+ .line-separator {
+    margin-top: 20px;
+    border-top: solid 3px #CF6666;
+    padding-top: 20px;
+ }
+
+/*-- Relaxing Theraphy --*/
+#relaxing-hero {
+   background: url(../images/spa_room.jpg) no-repeat;
+   height: 260px;
+   margin-top: 40px;
+}
+
+/*-- Relaxing Theraphy pink bar --*/
+#relaxing-hero-bottom-nav {
+   background-color: #CF6666;
+   padding: 2px 90px;
+   margin-top: 2px;
+}
+
+#relaxing-hero-bottom-nav ol li {
+   display: inline;
+   margin: 0 0 0 35px;
+   padding: 0;
+}
+
+#relaxing-hero-bottom-nav ol li a {
+   font-size: 17px;
+   text-decoration: underline;
+   color: white;
+}
+
+/*--White box--*/
+#relaxing-hero-heading-box {
+   align-self: end;
+   height: 25px; 
+}
+
+/*--Relaxing Theraphy Title--*/
+.relaxing-hero-img-p {
+   font-size: 17px;
+   margin: 20px 0px 20px 0px;
+}
+
+.relaxing-hero-img-p span {
+   font-size: 17px;
+}
+
+/*-- Relaxing Theraphy Top menu--*/
+#top-menu ul li {
+   display:inline-block;
+   font-size: 15px;
+   margin: 10px 15px 0px 0px;
+}
+
+#top-menu ul li a {
+   text-decoration: underline;
+   color: black;
+}
+
+#top-menu ul li a:hover {
+   color:  #CF6666;
+}
+
+/*-- Spa Hand --*/
+#hand-hero {
+   background: url(../images/spa_hand.jpg) no-repeat;
+   margin-top: 180px;
+   height: 260px;
+}
+
+/*--Spa Hand White box--*/
+#hand-hero-heading-box {
+   align-self: end;
+   height: 25px; 
+}
+
+.hand-hero-img-p {
+   background: rgb(255, 255, 255);
+   padding: 18px 15px;
+   font-size: 17px;
+}
+
+#hand-menu ul li {
+   text-decoration: underline;
+   display: flex;
+   color: black;
+   margin: -25px;
+   padding-top: 8px;
+}
+
+#hand-menu ul li a {
+  list-style-type: none;
+  color: black; 
+  font-size: 15px;
+}
+
+#hand-menu ul a:hover {
+   color:  #CF6666;
+}
+
+/*-- Spa Facial --*/
+#facial-hero {
+   background: url(../images/spa_facial.jpg) no-repeat;
+   margin-top: 90px;
+   height: 260px;
+}
+
+/*--Spa facial White box--*/
+#facial-hero-heading-box {
+   align-self: end;
+   height: 25px;
+}
+
+.facial-hero-img-p {
+   background: rgb(255, 255, 255);
+   padding: 18px 15px;
+   font-size: 17px;
+}
+
+#facial-menu ul li {
+   text-decoration: underline;
+   display: flex;
+   color: black;
+   margin: -42px -25px;
+   padding-top: 8px;
+}
+
+#facial-menu ul li a {
+  list-style-type: none;
+  color: black; 
+  font-size: 15px;
+}
+
+#facial-menu ul a:hover {
+   color:  #CF6666;
+}
+
+/*-- Algonquin Facial --*/
+#algonquin-hero {
+   background: url(../images/spa_algonquin.jpg) no-repeat;
+   margin-top: 55px;
+   height: 260px;
+}
+
+/*--Algonquin White box--*/
+#algonquin-hero-heading-box {
+   align-self: end;
+   height: 25px;
+}
+
+.algonquin-hero-img-p {
+   background: rgb(255, 255, 255);
+   padding: 18px 15px;
+   font-size: 17px;
+}
+
+#algonquin-menu ul li {
+   text-decoration: underline;
+   display: flex;
+   color: black;
+   margin: -42px -25px;
+   padding-top: 8px;
+}
+
+#algonquin-menu ul li a {
+  list-style-type: none;
+  color: black; 
+  font-size: 15px;
+}
+
+#algonquin-menu ul a:hover {
+   color:  #CF6666;
+}
+
+/*-- Policies Hero --*/
+#policies-hero {
+   background: url(../images/spa_policies.jpg) no-repeat;
+   height: 260px;
+   margin-top: 80px;
+}
+
+/*--Heading box above hero image--*/
+#policies-heading-box {
+   align-self: end;
+   height: 25px; 
+}
+
+/*--White box & Contact--*/
+.policies-hero-img-h2 {
+   background: rgb(255, 255, 255);
+   padding: 10px 15px;
+   margin-bottom: -40px;
+   margin-top: -5px;
+   font-size: 17px;
+}
+
+.policies-hero-img-h2 span {
+   color: #9a2018;
+   font-size: 13px;
+}
+
+.line-separator2 {
+   border-top: solid 3px #CF6666;
+   margin: 10px 0px -30px -10px;
+   margin-right: 15px;
+ 
+}
+
+#policies-menu ul li {
+   text-decoration: underline;
+   display: flex;
+   color: black; 
+   padding: 30px 0px 30px 20px;
+   margin-left: -45px;
+}
+
+#policies-menu ul li a {
+  list-style-type: none;
+  color: black; 
+  font-size: 15px;
+}
+
+#policies-menu ul a:hover {
+   color:  #CF6666;
+}
+
+/*-- Spa Quality --*/
+.quality-image {
+   float: left;
+   margin-right: 20px;
+   margin-top: 50px;
+}
+
+.quality-image-con {
+   margin-top: 300px;
+}
+
+.quality-image-con h2 {
+   font-size: 17px;
+   margin-bottom: 5px;
+   margin-top: 20px;
+}
+
+.quality-image-con span {
+   font-size: 13px;
+   line-height: 2;
+}
+
+.quality-image-con h3 {
+   font-size: 14px;
+   margin-bottom: 5px;
+   margin-top: 10px;
+   font-style: italic;
+}
+
+/*-- Spa Products --*/
+.products-image {
+   float: left;
+   margin-right: 20px;
+   margin-top: 50px;
+}
+
+.products-image-con {
+   margin-top: 30px;
+}
+
+.products-image-con h2 {
+   font-size: 17px;
+   margin-bottom: 5px;
+   margin-top: 20px;
+}
+
+.products-image-con span {
+   font-size: 13px;
+   line-height: 2;
+}
+
+.products-image-con h3 {
+   font-size: 14px;
+   margin-bottom: 5px;
+   margin-top: 10px;
+   font-style: italic;
+}
+
+/* Toll Free and Address icons */
+.fas {
+   font-size: 42px;
+   color: #9a2018;
+   margin: 0 auto;
+   float: left;
+}
+
+.fa-mobile-alt {
+   margin-right: 10px;
+   margin-left: 3px;
+   margin-bottom: 20px;
+}
+
+.fa-map-marker-alt {
+   margin-right: 10px;
+}
+
+#contact {
+   font-size: 11px;
+   background-color: #f0efef;
+   margin-top: 50px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+/*-- Contact Hero --*/
+#contact-hero {
+   background: url(../images/contact-hero-2.jpg) no-repeat;
+   height: 260px;
+}
+
+/*--Heading box above hero image--*/
+#contact-heading-box {
+   align-self: end;
+   height: 25px; 
+}
+
+/*--White box & Contact--*/
+.contact-hero-img-h2 {
+   background: rgb(255, 255, 255);
+   padding: 10px 15px;
+   font-size: 17px;
+}
+
+.contact-hero-img-h2 span {
+   color: #9a2018;
+   font-size: 13px;
+}
+
+.line-separator2 {
+   margin-top: 60px;
+   border-top: solid 3px #CF6666;
+   padding-top: 20px;
+}
+
+.contact-hero-img-p {
+   font-size: 14px;
+   line-height: 2;
+}
+
+/*-- Contact Form --*/
+#contact-hero-form form {
+   display: flex;
+   flex-direction: column;
+   padding: 15px;
+}
+
+#contact-hero-form input, textarea {  
+   padding: 18px;
+   margin-top: 40px;
+   border: 2px solid #b3b2b2;
+   background-color: #f7f7f7;
+   border-radius: 5px;
+   font: inherit;
+   width: auto;
+}
+
+#contact-hero-form textarea {
+   height: 250px;
+}
+
+/*-- Form input completion --*/
+#contact-hero-form input:valid,
+#contact-hero-form textarea:valid {
+    background-color: #8ca3f6;
+}
+
+#contact-hero-form input:invalid,
+#contact-hero-form textarea:invalid {
+    background-color: #fdf6f6;
+}
+
+#contact-hero-form input[type="submit"]:active {
+   transform: matrix(1, 0, 0, 0, 0,0);
+}
+
+#contact-hero-form input[type="submit"] {
+   padding: 18px 28px;
+   background:  #9a2018;
+   color: #fff;
+   font-size: 18px;
+   border: none;
+   transition: all 200ms ease-in;
+   width: 150px;
+   align-self: flex-end;
+}
+
+#contact-hero-form input[type="submit"]:hover {
+   background-color: rgb(196, 28, 28);
+}
+
+/* ---Footer--- */
+#footer-hero {
+   background-image: url(../images/spa_footer2.jpg);
+	background-repeat: no-repeat;
+   color: #fff;
+   font-size: 12px;
+   margin-top: 40px;
+   margin-left: -2px;
+   padding-bottom: 110px;
+}
+
+#footer-hero h3 {
+   margin-top: 30px;
+   font-size: 28px;
+   margin-bottom: 16px;
+}
+
+#footer-privacy .line-seperator {
+   margin-top: 0px;
+}
+
+#footer-contact-info h3 {
+   font-size: 23px;
+}
+
+#footer-contact-info p {
+   margin-bottom: 20px;
+   line-height: 18px;
+   font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+ 

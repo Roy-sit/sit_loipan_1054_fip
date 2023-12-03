@@ -371,24 +371,11 @@
     height: 250px;
  }
  
- #contact-h-hero-form input[type="submit"] {
-    padding: 12px 28px;
-    background: #9a2018;
-    color: #fff;
-    border: none;
-    transition: all 200ms ease-in;
-    width: 150px;
-    align-self: flex-end;
- }
- 
- #contact-h-hero-form input[type="submit"]:hover {
-    background-color: rgb(196, 28, 28);
- }
  
  /* ---Footer--- */
  #footer-h-hero {
     background-image: url(../images/footer-mt.jpg);
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     color: #fff;
     font-size: 12px;
     margin-top: 40px;
@@ -957,20 +944,35 @@
     height: 250px;
  }
  
- #contact-hero-form input[type="submit"] {
-    padding: 18px 28px;
-    background:  #9a2018;
-    color: #fff;
-    font-size: 18px;
-    border: none;
-    transition: all 200ms ease-in;
-    width: 150px;
-    align-self: flex-end;
- }
- 
- #contact-hero-form input[type="submit"]:hover {
-    background-color: rgb(196, 28, 28);
- }
+  /* --- Send Button --- */
+  #contact-hero-form input[type="submit"] {
+   padding: 18px 28px;
+   background: #9a2018;
+   color: #fff;
+   font-size: 18px;
+   border: none;
+   transition: transform 0.5s ease-in-out; /* Apply the transition only to the transform property */
+   width: 150px;
+   align-self: flex-end;
+   position: relative;
+}
+
+@keyframes scaleButton {
+   0% {
+       transform: scale(0.9);
+   }
+   50% {
+       transform: scale(1.3);
+   }
+   100% {
+       transform: scale(0.3);
+   }
+}
+
+#contact-hero-form input[type="submit"]:hover {
+   animation: scaleButton 1s; /* Apply the keyframes animation on hover */
+}
+
  
  /* ---Footer--- */
  #footer-d-hero {

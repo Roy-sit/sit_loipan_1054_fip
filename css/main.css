@@ -3,7 +3,7 @@
 #mobile-outline {
     outline: 20px solid #333;
     max-width: 412px;
-    height: 5740px;
+    height: 5756px;
     margin: 20px auto 20px auto;
     border-radius: 10px;
  } 
@@ -423,7 +423,7 @@
 #mobile-outline-d {
     outline: 20px solid #333;
     max-width: 412px;
-    height: 6070px;
+    height: 6093px;
     margin: 20px auto 20px auto;
     border-radius: 10px;
  } 
@@ -1010,7 +1010,7 @@
  #mobile-outline-s {
     outline: 20px solid #333;
     max-width: 412px;
-    height: 5135px;
+    height: 5167px;
     margin: 20px auto 20px auto;
     border-radius: 10px;
  } 
@@ -1084,7 +1084,7 @@
  /*--White box & Spa Services--*/
  .hero-img-h2 {
     background: rgb(255, 255, 255);
-    padding: 10px 15px;
+    padding: 15px 15px;
     font-size: 17px;
  }
  
@@ -1440,55 +1440,45 @@
 }
 
 /*-- Contact Form --*/
-#contact-hero-form form {
+#contact-hero-form {
    display: flex;
    flex-direction: column;
    padding: 15px;
 }
 
-#contact-hero-form input, textarea {  
-   padding: 18px;
-   margin-top: 40px;
-   border: 2px solid #b3b2b2;
-   background-color: #f7f7f7;
-   border-radius: 5px;
-   font: inherit;
-   width: auto;
+#contact-hero-form .input-space input {  
+   height: 20px;
+   width: 310px; 
 }
 
 #contact-hero-form textarea {
    height: 250px;
+   width: 310px;
 }
 
 /*-- Form input completion --*/
-#contact-hero-form input:valid,
-#contact-hero-form textarea:valid {
-    background-color: #8ca3f6;
+.input-space {
+   position: relative;
+   margin-bottom: 0px;
 }
 
-#contact-hero-form input:invalid,
-#contact-hero-form textarea:invalid {
-    background-color: #fdf6f6;
+.ok-hand::after {
+   content: "\1F44D";
+   position: absolute;
+   top: 68%;
+   right: 48px;
+   transform: translateY(-50%) rotate(0deg);
+   font-size: 22px;
+   opacity: 0; /* Initially hide the checkmark */
+   transition: transform 0.5s ease-in-out; /* Add a transition for smooth rotation */
 }
 
-#contact-hero-form input[type="submit"]:active {
-   transform: matrix(1, 0, 0, 0, 0,0);
+.input-space input:valid + .ok-hand::after,
+.input-space textarea:valid + .ok-hand::after {
+   opacity: 1; /* Show the checkmark when the input is valid */
+   transform: translateY(-50%) rotate(360deg);
 }
 
-#contact-hero-form input[type="submit"] {
-   padding: 18px 28px;
-   background:  #9a2018;
-   color: #fff;
-   font-size: 18px;
-   border: none;
-   transition: all 200ms ease-in;
-   width: 150px;
-   align-self: flex-end;
-}
-
-#contact-hero-form input[type="submit"]:hover {
-   background-color: rgb(196, 28, 28);
-}
 
 /* ---Footer--- */
 #footer-hero {
@@ -1497,7 +1487,7 @@
    color: #fff;
    font-size: 12px;
    margin-top: 40px;
-   margin-left: -2px;
+   margin-left: 0px;
    padding-bottom: 110px;
 }
 

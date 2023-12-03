@@ -301,13 +301,23 @@
         <!-- Contact Form-->
         <div id="contact-hero-form" class="col-span-full">
             <form action="email.php" method="POST" enctype="text/plain">
-                <input name="fullName" type="text" placeholder="First & Last Name" required data-symbol="✓">
-                <input name="contactInfo" type="text" required placeholder="Phone number or Email" data-symbol="✓">
-                <textarea name="msg" required placeholder="Enter your questions, comments or concerns here..." data-symbol="✓"></textarea>
-                <input name="submit" type="submit" value="Send">           
+                <div class="input-space">
+                    <input name="fullName" type="text" placeholder="First & Last Name" required>
+                    <span class="ok-hand"></span>
+                </div>
+                <div class="input-space">
+                    <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                    <span class="ok-hand"></span>
+                </div>
+                <div class="input-space">
+                    <textarea name="msg" required placeholder="Enter your questions, comments or concerns here..."></textarea>
+                    <span class="ok-hand"></span>
+                </div>
+                <input type="submit" value="Send" formaction="javascript:void(0);">
             </form>
         </div>
 
+        
         <!-- Footor-->
         <footer id="footer-d-hero" class="grid-con"> 
 
